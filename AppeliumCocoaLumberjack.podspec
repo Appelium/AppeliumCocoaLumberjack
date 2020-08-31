@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
 	s.name					= 'AppeliumCocoaLumberjack'
-	s.version				= '2.0.0'
+	s.version				= '2.0.1'
 	s.summary				= 'A custom CocoaLumberjack logger for Appelium'
 	s.homepage				= 'https://www.appelium.com/'
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	s.source       			= { :http => "https://github.com/Appelium/AppeliumCocoaLumberjack/releases/download/#{s.version}/AppeliumCocoaLumberjack.framework.zip" }
 
 	s.platform				= :ios, '10.0'
-	s.xcconfig    			= { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Appelium/"' }
+	s.xcconfig    			= { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AppeliumCocoaLumberjack/"' }
     s.requires_arc 			= true
     s.vendored_frameworks	= 'AppeliumCocoaLumberjack.framework'
 

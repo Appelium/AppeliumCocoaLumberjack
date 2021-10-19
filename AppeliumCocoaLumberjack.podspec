@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
 	s.name					= 'AppeliumCocoaLumberjack'
-	s.version				= '2.1.0'
+	s.version				= '2.2.0'
 	s.summary				= 'A custom CocoaLumberjack logger for Appelium'
 	s.homepage				= 'https://www.appelium.com/'
 	s.cocoapods_version     = '>= 1.10.0'
